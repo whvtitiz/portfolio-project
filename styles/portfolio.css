@@ -23,6 +23,7 @@ body {
 h1 {
   font-size: 96px;
   line-height: 1.5;
+  font-weight: bold;
 }
 h2 {
   font-size: 64px;
@@ -45,6 +46,12 @@ p {
   margin: 0;
   color: #272142;
 }
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  line-height: 1.5;
+  font-weight: bold;
+}
 
 .hero h2 {
   font-family: var(--heading-font-family);
@@ -60,6 +67,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
 }
 
 .btn-branding-outline {
@@ -69,6 +77,8 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .project-description {
