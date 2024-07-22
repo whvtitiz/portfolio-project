@@ -2,7 +2,7 @@
   --branding-color: #b5cfd0;
   --secondary-color: #e8f4f2;
   --heading-font-family: "Playfair Display, serif";
-  --default-font-family: "Georgia, sans-serif";
+  --default-font-family: "Poppins, sans-serif";
 }
 
 img {
@@ -19,7 +19,8 @@ h5,
 h6 {
   color: black;
   font-family: var(--heading-font-family);
-  font-weight: bold;
+
+  font-weight: 700;
 }
 
 body {
