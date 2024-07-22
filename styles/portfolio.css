@@ -1,8 +1,14 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #b5cfd0;
+  --secondary-color: #e8f4f2;
   --heading-font-family: "Playfair Display, serif";
-  --default-font-family: "Poppins, sans-serif";
+  --default-font-family: "Georgia, sans-serif";
+}
+
+img {
+  max-width: 100%;
+
+  height: auto;
 }
 
 h1,
@@ -23,7 +29,6 @@ body {
 h1 {
   font-size: 96px;
   line-height: 1.5;
-  font-weight: bold;
 }
 h2 {
   font-size: 64px;
@@ -60,7 +65,7 @@ p {
   font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
 }
 .about-section {
   padding: 160px 20px;
@@ -130,6 +135,7 @@ p {
 }
 .logo {
   max-height: 40px;
+  max-width: 100%;
 }
 
 nav a {
